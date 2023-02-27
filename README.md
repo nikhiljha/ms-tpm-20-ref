@@ -62,6 +62,6 @@ Future updates to the autotools configurations may automate one or both of these
 
 ```
 ./bootstrap
-PKG_CONFIG_PATH="/usr/local/opt/openssl/lib/pkgconfig" EXTRA_CFLAGS=-fno-common ./configure
+PKG_CONFIG_PATH="/opt/homebrew/opt/openssl@1.1/lib/pkgconfig" EXTRA_CFLAGS=-fno-common ./configure
 make
 ```
